@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  position: relative;
+  background: url(house.jpeg);
+  background-size: cover;
+}
+    
+.hero{
+      margin-left: 50%;    
+      margin-top: 30%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+}
+.hero h1{
+    margin-left: 20px;
+}
+form{
+    background: linear-gradient(375deg, #1cc7d0, #2ede98);
+    width: 300px;
+    height: 300px;
+    border: 2px solid #1cc7d0;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+form  input, button{
+    border-radius: 5px;
+}
+button {
+    padding: 10px;
+    color: yellowgreen;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.pred{
+    font-size: 25px;
+    color: #fff;
+}
+
+
+
+
+
+
+
